@@ -19,7 +19,7 @@ transparent="\e[0m"
 trap exitMode SIGINT SIGHUP
 function exitMode {
 	
-	echo "Exit ..."
+	echo -e -n "${red}Exit ..."
 	sleep 2
 	clear
 	exit
